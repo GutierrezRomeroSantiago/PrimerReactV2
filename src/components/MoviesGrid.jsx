@@ -3,8 +3,6 @@ import { get } from '../utils/httpClient'
 import { Spinner } from '../components/Spinner'
 import { MovieCard } from './MovieCard'
 import styles from "./MoviesGrid.module.css"
-import { useLocation } from "react-router-dom"
-import { useQuery } from "../hooks/useQuery"
 import InfiniteScroll from "react-infinite-scroll-component"
 import { Empty } from './empty'
 
